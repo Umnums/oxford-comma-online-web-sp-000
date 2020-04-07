@@ -10,5 +10,5 @@ def oxford_comma(array)
       i += 1
     end
   end
-  string << ", and #{array[-1]}"
+  string << "and #{array[-1]}"
 end
