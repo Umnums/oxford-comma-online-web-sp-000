@@ -4,9 +4,10 @@ def oxford_comma(array)
   if array.length == 1
     array[0]
   else
-    for i < array.length - 2
+    while i < array.length - 2
       string << array[i]
       string << ", "
+      i += 1
     end
   end
   string << ", and #{array[-1]}"
